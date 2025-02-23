@@ -38,9 +38,9 @@ Pada beberapa sistem basis data berbasis dokumen, seperti MongoDB, dokumen root 
    Untuk berpindah dari branch satu ke lainnya, gunakan: git checkout <branch-name>
 
 4. Jelaskan perbedaan antara GitHub dan GitLab
-   - GitHub sebuah software yang berfungsi sebagai repositori Git, menonjol dengan antarmuka yang sederhana dan komunitas pengguna yang besar, menjadikannya pilihan populer untuk proyek open-source dan kolaborasi komunitas. 
+   - GitHub : sebuah software yang berfungsi sebagai repositori Git, menonjol dengan antarmuka yang sederhana dan komunitas pengguna yang besar, menjadikannya pilihan populer untuk proyek open-source dan kolaborasi komunitas. 
    Tidak ada CI/CD bawaan, tetapi bisa diintegrasikan dengan layanan pihak ketiga seperti GitHub Actions, Travis CI, dan Jenkins.
-   - Platform berbasis Git yang menawarkan kontrol lebih besar dan dapat di-host secara mandiri (self-hosted)
+   - Gitlab : platform berbasis Git yang menawarkan kontrol lebih besar dan dapat di-host secara mandiri (self-hosted)
    Memiliki fitur CI/CD bawaan, repositori privat tanpa batas, atau ingin self-hosting untuk keamanan dan kontrol penuh.
 
 5. Apa bedanya variable user dengan variable system ?
