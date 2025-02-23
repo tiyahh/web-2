@@ -1,5 +1,6 @@
-1. Dokumen root adalah titik awal atau elemen utama dari suatu sistem dokumen, direktori, atau struktur data. 
-   Pengertian dokumen root dapat bervariasi tergantung pada konteks penggunaannya, seperti dalam sistem file, pemrograman web, atau basis data.
+1. Jelaskan apa yang dimaksud dengan dokumen root ?
+Dokumen root adalah titik awal atau elemen utama dari suatu sistem dokumen, direktori, atau struktur data. 
+ Pengertian dokumen root dapat bervariasi tergantung pada konteks penggunaannya, seperti dalam sistem file, pemrograman web, atau basis data.
 Beberapa Penggunaan Dokumen Root:
 - Dalam Sistem File
 Dokumen root merujuk pada direktori utama yang menjadi dasar dari semua file dan subdirektori dalam sistem operasi.
@@ -20,22 +21,44 @@ Elemen <root> adalah dokumen root dalam XML.
 Pada beberapa sistem basis data berbasis dokumen, seperti MongoDB, dokumen root adalah objek utama yang menyimpan kumpulan data dalam bentuk JSON atau BSON.
  Dokumen root merupakan elemen utama dalam berbagai sistem yang menjadi dasar struktur dan hierarki data.
 
-2. - Dokumen root tidak harus selalu di C:\xampp\htdocs.
-   - Dapat diubah sesuai kebutuhan dengan mengedit httpd.conf atau menggunakan Virtual Hosts.
-   -Pastikan memberikan izin akses yang benar agar server bisa membaca file dari lokasi baru.
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs ? Jelaskan jawaban anda
+   Dalam instalasi XAMPP di Windows, direktori default untuk dokumen root memang berada di C: \xampp\htdocs
+   Dokumen root tidak harus selalu di C:\xampp\htdocs.
+   Dapat diubah sesuai kebutuhan dengan mengedit httpd.conf atau menggunakan Virtual Hosts.
+   Pastikan memberikan izin akses yang benar agar server bisa membaca file dari lokasi baru.
 
-3. init : Perintah ini digunakan untuk membuat repositori baru. contoh: git init
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push dan checkout
+   init : Git init Perintah ini digunakan untuk membuat repositori baru. contoh: git init
    clone : Git clone adalah perintah untuk mengunduh kode sumber yang ada dari repositori jarak jauh (seperti Github). Dengan kata lain, git clone pada dasarnya membuat salinan identik dari versi terbaru proyek dalam repositori dan menyimpannya ke komputer Anda.
    remote : Perintah git remote akan membuat user terhubung ke remote repository. Perintah berikut ini akan menampilkan repository yang sedang dikonfigurasi:git rmote -v
    add : Perintah git add bisa digunakan untuk menambahkan file ke index. Contohnya, perintah berikut ini akan menambahkan file bernama temp.txt yang ada di direktori lokal ke index: git add temp.txt
    commit : Perintah git commit digunakan untuk melakukan commit pada perubahan ke head. Ingat bahwa perubahan apapun yang di-commit tidak akan langsung ke remote repository. contoh: git commit –m “upload file”
    push : git push adalah perintah git dasar lainnya. Push akan mengirimkan perubahan ke master branch dari remote repository yang berhubungan dengan direktori kerja Anda. Misalnya: git push origin master
-   checkout : git checkout
-Perintah git checkout bisa digunakan untuk membuat branch atau untuk berpindah diantaranya. Misalnya, perintah berikut ini akan membuat branch baru dan berpindah ke dalamnya:
-command git checkout -b <nama-branch>
-Untuk berpindah dari branch satu ke lainnya, gunakan: git checkout <branch-name>
+   checkout : git checkout bisa digunakan untuk membuat branch atau untuk berpindah diantaranya. Misalnya, perintah berikut ini akan membuat branch baru dan berpindah ke dalamnya:command git checkout -b <nama-branch>
+   Untuk berpindah dari branch satu ke lainnya, gunakan: git checkout <branch-name>
 
-4. GitHub sebuah software yang berfungsi sebagai repositori Git, menonjol dengan antarmuka yang sederhana dan komunitas pengguna yang besar, menjadikannya pilihan populer untuk proyek open-source dan kolaborasi komunitas. 
-   GitLab menawarkan solusi DevOps lengkap dengan fitur CI/CD terintegrasi dan fleksibilitas untuk di-host sendiri, membuatnya ideal bagi tim dan organisasi yang membutuhkan alat manajemen siklus hidup perangkat lunak yang menyeluruh.
-   GitLab adalah sebuah perangkat lunak (software) bersifat open-source, yang berarti source code dari software ini tersedia secara bebas dan dapat dimodifikasi sekaligus di redistribusi.
+4. Jelaskan perbedaan antara GitHub dan GitLab
+   - GitHub sebuah software yang berfungsi sebagai repositori Git, menonjol dengan antarmuka yang sederhana dan komunitas pengguna yang besar, menjadikannya pilihan populer untuk proyek open-source dan kolaborasi komunitas. 
+   Tidak ada CI/CD bawaan, tetapi bisa diintegrasikan dengan layanan pihak ketiga seperti GitHub Actions, Travis CI, dan Jenkins.
+   - Platform berbasis Git yang menawarkan kontrol lebih besar dan dapat di-host secara mandiri (self-hosted)
+   Memiliki fitur CI/CD bawaan, repositori privat tanpa batas, atau ingin self-hosting untuk keamanan dan kontrol penuh.
 
+5. Apa bedanya variable user dengan variable system ?
+   -Variabel user : Variabel yang dibuat dan digunakan oleh pengguna/programmer dalam suatu program atau sistem.
+   Dapat diubah sesuai kebutuhan pengguna.
+   - Variabel sistem : Variabel yang sudah ditentukan oleh sistem dan digunakan untuk mengatur atau menyimpan informasi sistem.
+   Beberapa dapat diubah, tetapi ada juga yang bersifat tetap atau hanya dapat diubah dengan hak admin.
+
+6. Persamaan antara variabel sistem (system variable) dan variabel konstan (constant variable) adalah:
+-Menyimpan Nilai
+Keduanya digunakan untuk menyimpan nilai yang dapat diakses dalam program atau sistem.
+-Dapat Digunakan dalam Eksekusi Program
+Baik variabel sistem maupun variabel konstan dapat digunakan dalam proses eksekusi program untuk mengatur perilaku sistem atau perhitungan dalam kode.
+-Memiliki Nama yang Digunakan untuk Referensi
+Keduanya memiliki nama unik yang digunakan untuk mengakses nilainya dalam kode atau sistem operasi.
+-Bisa Memiliki Nilai Default
+Baik variabel sistem maupun variabel konstan bisa memiliki nilai default yang sudah ditentukan sebelumnya oleh sistem atau programmer.
+
+Meskipun memiliki persamaan, perbedaan utama antara keduanya adalah:
+Variabel sistem : dapat diubah selama eksekusi program atau oleh administrator sistem.
+Variabel konstan : memiliki nilai tetap dan tidak dapat diubah setelah dideklarasikan.
